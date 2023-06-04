@@ -144,7 +144,7 @@
                     android:id="@+id/textView10"
                     android:layout_width="225dp"
                     android:layout_height="83dp"
-                    android:text="MI ALMA OBSCURA </3"
+                    android:text="MI ALMA OBSCURA </3 jajajaja"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
