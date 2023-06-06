@@ -20,12 +20,9 @@ import com.ita.proyect.R;
 import com.ita.proyect.databinding.ActivityLoginBinding;
 
 public class LoginActivity extends AppCompatActivity {
-
-
     private ActivityLoginBinding binding;
     Button ingresar;
     EditText correo, contraseña;
-
      FirebaseAuth mAuth;
 
     @Override
@@ -38,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
 
         correo =findViewById(R.id.email);
         contraseña=findViewById(R.id.pass);
-        ingresar= findViewById(R.id.button);
+        ingresar= findViewById(R.id.iniciar);
 
 
         //ingresar = findViewById(R.id.Login);
