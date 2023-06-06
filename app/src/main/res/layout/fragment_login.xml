@@ -23,7 +23,7 @@
         android:src="@drawable/ic_avatar" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:ems="10"
@@ -31,7 +31,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/pass"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:ems="10"
