@@ -12,6 +12,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -23,28 +24,28 @@
             android:padding="10dp">
 
             <EditText
-                android:id="@+id/name"
+                android:id="@+id/name_r"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Nombre" />
+                android:hint="Nombre"
+                android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/email_r"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Correo" />
+                android:hint="Correo"
+                android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/password_r"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Contraseña" />
+                android:hint="Contraseña"
+                android:inputType="textPersonName" />
 
             <Space
                 android:layout_width="match_parent"
@@ -54,7 +55,8 @@
                 android:id="@+id/btn_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Registrar" />
+                android:text="Registrar"
+                app:cornerRadius="15dp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
