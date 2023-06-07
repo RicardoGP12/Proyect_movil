@@ -6,6 +6,11 @@
     app:startDestination="@+id/navigation_home">
 
     <fragment
+        android:id="@+id/navigation_gestures"
+        android:name="com.ita.proyect.ui.Cart.CartFragment"
+        android:label="@string/title_Carrito"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
         android:id="@+id/navigation_home"
         android:name="com.ita.proyect.ui.home.HomeFragment"
         android:label="@string/title_home"
@@ -32,4 +37,5 @@
         android:name="com.ita.proyect.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
+
 </navigation>

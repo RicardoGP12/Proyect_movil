@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.Button;
 import android.widget.ViewFlipper;
 
 import androidx.annotation.NonNull;
@@ -22,6 +22,7 @@ import java.util.List;
 
 public class HomeFragment extends Fragment {
     ViewFlipper v_flipp ;
+    Button gesto;
 
     List<CarouselItem> list = new ArrayList<>();
 
