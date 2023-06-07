@@ -64,35 +64,17 @@
                     app:layout_constraintTop_toBottomOf="@+id/text_saludo"
                     app:layout_constraintVertical_bias="0.0" />
 
-                <EditText
-                    android:id="@+id/editTextTextPersonName"
-                    android:layout_width="0dp"
-                    android:layout_height="48dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginEnd="32dp"
-                    android:background="@drawable/search_background"
-                    android:drawableStart="@drawable/ic_action_search"
-                    android:ems="10"
-                    android:hint="Encuentra tu comida"
-                    android:inputType="textPersonName"
-                    android:textStyle="italic"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.079"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView" />
-
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/constraintLayout"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:layout_marginStart="32dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="76dp"
                     android:layout_marginEnd="32dp"
                     android:background="@drawable/brown_banner"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName">
+                    app:layout_constraintTop_toBottomOf="@+id/imageView3">
 
                     <ImageView
                         android:id="@+id/imageView6"

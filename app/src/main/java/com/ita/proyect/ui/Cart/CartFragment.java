@@ -5,18 +5,23 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.content.Intent;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.ita.proyect.ActivityQR;
+import com.ita.proyect.R;
 import com.ita.proyect.databinding.FragmentCartBinding;
 
 
 public class CartFragment extends Fragment {
 
     private FragmentCartBinding binding;
+    Button pago;
+
+
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -26,8 +31,20 @@ public class CartFragment extends Fragment {
         binding = FragmentCartBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
+        View view = inflater.inflate(R.layout.fragment_cart, container, false);
 
-        return root;
+        Button btnLanzarActivity = (Button) view.findViewById(R.id.button3);
+        btnLanzarActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(),ActivityQR.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+        return view;
     }
 
     @Override

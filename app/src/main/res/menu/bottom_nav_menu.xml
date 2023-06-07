@@ -20,9 +20,5 @@
         android:id="@+id/navigation_cart"
         android:icon="@drawable/ic_cart"
         android:title="@string/title_Carrito" />
-    <item
-        android:id="@+id/loginFragment2"
-        android:icon="@drawable/ic_action_name"
-        android:title="Perfil" />
 
 </menu>
