@@ -20,6 +20,11 @@
         android:id="@+id/etDatos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:inputType="none"
+        android:textIsSelectable="false"
+        android:text="$97.99"
         app:layout_constraintBottom_toTopOf="@+id/btnGenerar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

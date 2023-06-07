@@ -40,7 +40,7 @@ public class ActivityQR extends AppCompatActivity {
                      * */
 
                     BarcodeEncoder barcodeEncoder = new BarcodeEncoder();
-                    Bitmap bitmap = barcodeEncoder.encodeBitmap("mailto:"+etDatos.getText().toString(), BarcodeFormat.QR_CODE, 750, 750);
+                    Bitmap bitmap = barcodeEncoder.encodeBitmap(etDatos.getText().toString(), BarcodeFormat.QR_CODE, 750, 750);
 
                     ivCodigoQR.setImageBitmap(bitmap);
                 } catch (Exception e) {

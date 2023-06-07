@@ -53,7 +53,7 @@ public class CartFragment extends Fragment {
         binding = null;
     }
 
-    public void iniciarActividadB() {
+    public void iniciarActivityQR() {
         // Crea un Intent para iniciar la actividad B
         Intent intent = new Intent(getActivity(), ActivityQR.class);
 
